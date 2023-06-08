@@ -6,10 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/jieshao.html")
-def jieshao():
-    return render_template('jieshao.html')
-
 @app.route("/qushi.html")
 def qushi():
     return render_template('qushi.html')
